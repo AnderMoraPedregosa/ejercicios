@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ejercicios PHP</title>
+<meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
 </head>
 <body>
 
@@ -31,7 +35,7 @@ function encontrarPosicion($paises, $pais)
     return -1;
 }
 
-require "ejercicio22.view.php";
+
 ?>
 </body>
 </html>
