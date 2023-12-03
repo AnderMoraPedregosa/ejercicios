@@ -1,5 +1,8 @@
+
+<?php require('partials/nav.php'); ?>
 <?php
 include "conexion2.php";
+
 
 if (isset($_GET["id"]) && is_numeric($_GET["id"])) 
 {
@@ -26,3 +29,5 @@ else
     echo "ID inválido";
 }
 ?>
+
+<?php require('partials/footer.php'); ?>

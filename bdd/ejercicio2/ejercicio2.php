@@ -11,6 +11,12 @@
 
 <body>
 
+<?php require('partials/nav.php'); ?>
+
+
+
+
+
 <h2>Lista de Empleados</h2>
 <h2>Buscar Empleado</h2>
 <form action="buscar.php" method="get">
@@ -60,6 +66,7 @@
 
 
 
+<?php require('partials/footer.php'); ?>
 
 </body>
 </html>
